@@ -10,7 +10,7 @@ public class Test {
 		
 		Group group1 = new Group(1);
 		group1.addMember(new Student("Romeo Permentier", "KUL"));
-		
+		group1.addMember(new Student("Nick Braeckman","KUL"));
 		for(Group group : groups) {
 			group.sayHi();
 		}
