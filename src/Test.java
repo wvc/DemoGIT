@@ -24,6 +24,12 @@ public class Test {
 		groep3.addMember(new Student("Siebe Roets","KU Leuven"));
 		groep3.addMember(new Student("Bente Van Eeckhoudt","KU Leuven"));
 		groep3.addMember(new Student("Glenn Groothuis","KU Leuven"));
+		
+		Group groep4 = new Group(4);
+		groep4.addMember(new Student("Dairo de Ruck", "KU Leuven"));
+		groep4.addMember(new Student("Sam Dobbelaere", "KU Leuven"));
+		groep4.addMember(new Student("Willem Juwet", "KU Leuven"));
+
 		for(Group group : groups) {
 			group.sayHi();
 		}
