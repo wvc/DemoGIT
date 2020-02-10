@@ -14,6 +14,11 @@ public class Test {
 		group1.addMember(new Student("Romeo Permentier", "KUL"));
 		group1.addMember(new Student("Elke Govaert", "KUL"));
 		group1.addMember(new Student("Nick Braeckman","KUL"));
+		
+		Group group2 = new Group(2);
+		group2.addMember(new Student("Pieter Carlu", "KU Leuven"));
+		group2.addMember(new Student("Victor Goeman", "KU Leuven"));
+		group2.addMember(new Student("Tim Ameye", "KU Leuven"));
 		for(Group group : groups) {
 			group.sayHi();
 		}
