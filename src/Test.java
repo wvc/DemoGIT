@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Test {
@@ -36,7 +37,7 @@ public class Test {
 		groep5.addMember(new Student("Christophe De Backer", "KU Leuven"));
 		groep5.addMember(new Student("Brecht Willems", "Val-Thorens snooze Academy"));
 		
-		groups.add(groep5);
+		groups.addAll(Arrays.asList(groupAdmin,group1,group2,groep3,groep4,groep5));
 		for(Group group : groups) {
 			group.sayHi();
 		}
