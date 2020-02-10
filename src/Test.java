@@ -9,6 +9,8 @@ public class Test {
 		
 		Group group2 = new Group(2);
 		group2.addMember(new Student("Pieter Carlu", "KU Leuven"));
+		group2.addMember(new Student("Victor Goeman", "KU Leuven"));
+		group2.addMember(new Student("Tim Ameye", "KU Leuven"));
 		for(Group group : groups) {
 			group.sayHi();
 		}
