@@ -12,7 +12,9 @@ public class Test {
 		persons.add(new Student("Siebe Roets","KU Leuven"));
 		persons.add(new Student("Glenn Groothuis","KU Leuven"));
 		persons.add(new Employee("Pieter Smets", "KU Leuven"));
-
+		persons.add(new Student("Nick Braeckman", "KU Leuven"));
+		persons.add(new Student("Romeo Permentier", "KU Leuven"));
+		persons.add(new Student("Elke Govaert", "KU Leuven"));
 		
 		for(Person person : persons) {
 			person.sayHi();
