@@ -8,9 +8,11 @@ public class Test {
 		List<Person> persons = new ArrayList<>();
 		
 		persons.add(new Employee("Wim Vancroonenburg", "KU Leuven"));
+		persons.add(new Student("Bente Van Eeckhoudt", "KU Leuven"));
 		persons.add(new Student("Siebe Roets","KU Leuven"));
 		persons.add(new Student("Glenn Groothuis","KU Leuven"));
 		persons.add(new Employee("Pieter Smets", "KU Leuven"));
+
 		
 		for(Person person : persons) {
 			person.sayHi();
