@@ -9,6 +9,7 @@ public class Test {
 		Group groep3 = new Group(3);
 		groep3.addMember(new Student("Siebe Roets","KU Leuven"));
 		groep3.addMember(new Student("Bente Van Eeckhoudt","KU Leuven"));
+		groep3.addMember(new Student("Glenn Groothuis","KU Leuven"));
 		for(Group group : groups) {
 			group.sayHi();
 		}
