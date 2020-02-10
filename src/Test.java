@@ -8,6 +8,7 @@ public class Test {
 		List<Group> groups = new ArrayList<>();
 		Group groep3 = new Group(3);
 		groep3.addMember(new Student("Siebe Roets","KU Leuven"));
+		groep3.addMember(new Student("Bente Van Eeckhoudt","KU Leuven"));
 		for(Group group : groups) {
 			group.sayHi();
 		}
