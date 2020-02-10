@@ -12,7 +12,12 @@ public class Person {
 		return name;
 	}
 	
-	public void sayHello() {
+	public void sayHi() {
 		System.out.println("Hi, my name is "+name+".");
+	}
+	
+	@Override
+	public String toString() {
+		return getClass().getSimpleName()+"["+name+"]";
 	}
 }
