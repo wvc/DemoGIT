@@ -9,6 +9,8 @@ public class Test {
 		
 		persons.add(new Employee("Wim Vancroonenburg", "KU Leuven"));
 		
+		persons.add(new Student("Willem Juwet", "KU Leuven"));
+		
 		
 		for(Person person : persons) {
 			person.sayHi();
