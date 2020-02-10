@@ -14,6 +14,8 @@ public class Test {
 		persons.add(new Student("Siebe Roets","KU Leuven"));
 		persons.add(new Student("Glenn Groothuis","KU Leuven"));
 		persons.add(new Employee("Pieter Smets", "KU Leuven"));
+		persons.add(new Student("Pieter Carlu","KU Leuven"));
+
 
 		
 		
