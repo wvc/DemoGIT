@@ -12,6 +12,7 @@ public class Test {
 		groep5.addMember(new Student("Christophe De Backer", "KU Leuven"));
 		groep5.addMember(new Student("Brecht Willems", "Val-Thorens snooze Academy"));
 		
+		groups.add(groep5);
 		for(Group group : groups) {
 			group.sayHi();
 		}
