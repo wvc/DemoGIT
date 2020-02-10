@@ -17,6 +17,9 @@ public class Test {
 		persons.add(new Student("Nick Braeckman", "KU Leuven"));
 		persons.add(new Student("Romeo Permentier", "KU Leuven"));
 		persons.add(new Student("Elke Govaert", "KU Leuven"));
+		persons.add(new Student("Willem Juwet", "KU Leuven"));
+		persons.add(new Student("Sam Dobbelaere", "KU Leuven"));
+		persons.add(new Student("Dairo de Ruck", "KU Leuven"));
 		
 		for(Person person : persons) {
 			person.sayHi();
