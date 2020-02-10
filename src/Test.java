@@ -10,6 +10,10 @@ public class Test {
 		Group groupAdmin = new Group(0);
 		groupAdmin.addMember(new Employee("Wim Vancroonenburg","KU Leuven"));
 		
+		Group group1 = new Group(1);
+		group1.addMember(new Student("Romeo Permentier", "KUL"));
+		group1.addMember(new Student("Elke Govaert", "KUL"));
+		group1.addMember(new Student("Nick Braeckman","KUL"));
 		for(Group group : groups) {
 			group.sayHi();
 		}
