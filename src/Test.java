@@ -30,6 +30,13 @@ public class Test {
 		groep4.addMember(new Student("Sam Dobbelaere", "KU Leuven"));
 		groep4.addMember(new Student("Willem Juwet", "KU Leuven"));
 
+		
+		Group groep5 = new Group(5);
+		groep5.addMember(new Student("Jonas Welvaert","KU Leuven"));
+		groep5.addMember(new Student("Christophe De Backer", "KU Leuven"));
+		groep5.addMember(new Student("Brecht Willems", "Val-Thorens snooze Academy"));
+		
+		groups.add(groep5);
 		for(Group group : groups) {
 			group.sayHi();
 		}
